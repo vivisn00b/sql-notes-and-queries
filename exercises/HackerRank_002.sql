@@ -9,10 +9,10 @@
     3. Type your code immediately after comment. Don't leave any blank line.
 */
 
-SELECT CITY 
+SELECT DISTINCT(CITY) 
 From STATION
-WHERE CITY LIKE 'A%'
-    OR CITY LIKE 'E%'
-    OR CITY LIKE 'I%'
-    OR CITY LIKE 'O%' 
-    OR CITY LIKE 'U%';
+WHERE CITY LIKE '%a'
+    OR CITY LIKE '%e'
+    OR CITY LIKE '%i'
+    OR CITY LIKE '%o' 
+    OR CITY LIKE '%u';
